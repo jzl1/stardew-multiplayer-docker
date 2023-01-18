@@ -28,7 +28,6 @@ RUN wget https://github.com/Pathoschild/SMAPI/releases/download/3.14.7/SMAPI-3.1
 
 
 # Add Mods & Scripts
-COPY ["mods/", "/data/Stardew/Stardew Valley/Mods/"]
 COPY scripts/ /opt/
 
 RUN chmod +x /data/Stardew/Stardew\ Valley/StardewValley && \
