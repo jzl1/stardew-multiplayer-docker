@@ -2,7 +2,6 @@
 export HOME=/config
 
 # Run extra steps for certain mods
-/opt/configure-remotecontrol-mod.sh
 
 /opt/tail-smapi-log.sh &
 
