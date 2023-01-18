@@ -1,6 +1,9 @@
 #!/bin/bash
 export HOME=/config
 
+chmod -R 777 /data/Stardew/
+chown -R 1000:1000 /data/Stardew
+
 # Run extra steps for certain mods
 
 /opt/tail-smapi-log.sh &
