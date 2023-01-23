@@ -12,7 +12,7 @@ RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehe
 # Game + ModLoader 1.5.6 3.14.7
 RUN mkdir -p /data/Stardew && \
     mkdir -p /data/nexus && \
-    wget https://rhino.eu.org/Stardew_latest.tar.gz -qO /data/latest.tar.gz && \
+    wget https://rhino.eu.org/Stardew_legacy.tar.gz -qO /data/latest.tar.gz && \
     tar xf /data/latest.tar.gz -C /data/Stardew && \
     rm /data/latest.tar.gz 
 
