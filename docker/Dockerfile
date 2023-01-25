@@ -1,5 +1,5 @@
 # Pull base image.
-FROM jlesage/baseimage-gui:debian-10-v4
+FROM jlesage/baseimage-gui:debian-10
 
 # Set the name of the application.
 ENV APP_NAME="StardewValley"
